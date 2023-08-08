@@ -1,0 +1,18 @@
+[submodule "stable_coin/lib/openzeppelin-contracts"]
+	path = stable_coin/lib/openzeppelin-contracts
+	url = https://github.com/openzeppelin/openzeppelin-contracts
+[submodule "foundry/lib/forge-std"]
+	path = foundry/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "MEV-POC/lib/forge-std"]
+	path = MEV-POC/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "foundry/stablecoin/lib/forge-std"]
+	path = foundry/stablecoin/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "foundry/stablecoin/lib/openzeppelin-contracts"]
+	path = foundry/stablecoin/lib/openzeppelin-contracts
+	url = https://github.com/openzeppelin/openzeppelin-contracts
+[submodule "foundry/stablecoin/lib/chainlink-brownie-contracts"]
+	path = foundry/stablecoin/lib/chainlink-brownie-contracts
+	url = https://github.com/smartcontractkit/chainlink-brownie-contracts

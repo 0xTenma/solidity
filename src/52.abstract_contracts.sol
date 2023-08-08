@@ -14,8 +14,8 @@ abstract contract base {
     
 }
 
-contract Main is base {
-    function call1() public pure override returns(uint){
+abstract contract Main is base {
+    function call1() public pure returns(uint){
         return 1;
     }
 }

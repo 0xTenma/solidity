@@ -28,4 +28,9 @@ contract Call {
         require(success, "call failed");
         data = _data;
     }
+
+    function callDoesNotExist(address _test) external {
+        (bool success, ) = _test.call(abi.encodeWithSignature("doesNotExist()"));
+        require(success, "call failed");
+    }
 }

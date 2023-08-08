@@ -5,7 +5,7 @@ import "./reentrancy.sol";
 contract Attack {
     EtherStore public etherStore;
 
-    constructor(address _etherStoreAddress) public {
+    constructor(address _etherStoreAddress) {
         etherStore = EtherStore(_etherStoreAddress);
     }
     
